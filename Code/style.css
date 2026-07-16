@@ -286,7 +286,8 @@ ul li a:hover{
 
     display:flex;
     justify-content:space-between;
-    align-items:center;
+    align-items:flex-start;
+    gap:60px;
 }
 
 .brand-footer img{
@@ -321,7 +322,9 @@ ul li a:hover{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    gap:30px;
 }
+
 .footer-info p{
     color:#CBD5E1;
     font-size:18px;
@@ -409,4 +412,52 @@ ul li a:hover{
     padding:18px 36px;
     font-size:22px;
     margin-top:15px;
+}
+.footer-desc{
+    margin-top:18px;
+    max-width:320px;
+    color:#CBD5E1;
+    font-size:18px;
+    line-height:30px;
+}
+
+.footer-nav{
+    display:flex;
+    gap:28px;
+    flex-wrap:wrap;
+}
+
+.footer-nav a{
+    text-decoration:none;
+    color:#CBD5E1;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.footer-nav a:hover{
+    color:#60A5FA;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.footer-links h4{
+    color:#FFFFFF;
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+.footer-links a{
+    color:#CBD5E1;
+    text-decoration:none;
+    font-size:18px;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#60A5FA;
 }
