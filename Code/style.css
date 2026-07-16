@@ -84,13 +84,12 @@ ul li a:hover{
     text-align:center;
 }
 .hero-wrapper h1{
-    font-size:110px;
-    line-height:118px;
+    font-size:90px;
+    line-height:100px;
     font-weight:700;
     margin-bottom:35px;
     color:#fff;
 }
-
 .hero-wrapper h1 em{
     font-style: italic;
 }
@@ -154,23 +153,23 @@ ul li a:hover{
 .category{
     display: inline-block;
     color: #2563EB;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     margin: 20px 20px 10px;
     text-transform: uppercase;
 }
 
 .speaker-card h3{
-    font-size:28px;
+    font-size:34px;
     margin:0 24px 12px;
     color:#0D1B2A;
 }
 
 .speaker-card p{
-    font-size:16px;
+    font-size:20px;
     color:#575757;
     margin:0 24px 24px;
-    line-height:26px;
+    line-height:32px;
 }
 
 
@@ -222,13 +221,13 @@ ul li a:hover{
 }
 
 .pricing-card h3{
-    font-size:50px;
+    font-size:60px;
     margin-bottom:10px;
 }
 
 .pricing-card p{
     color:#777;
-    font-size:17px;
+    font-size:20px;
     margin-bottom:24px;
 }
 
@@ -240,7 +239,8 @@ ul li a:hover{
 .pricing-card ul li{
     margin-bottom:16px;
     color:#444;
-    line-height:26px;
+    font-size:20px;
+    line-height:34px;
 }
 
 .pricing-card .common-btn{
@@ -324,7 +324,7 @@ ul li a:hover{
 }
 .footer-info p{
     color:#CBD5E1;
-    font-size:16px;
+    font-size:18px;
 }
 
 .footer-nav{
@@ -335,7 +335,7 @@ ul li a:hover{
 .footer-nav a{
     text-decoration:none;
     color:#CBD5E1;
-    font-size:16px;
+    font-size:18px;
 }
 
 .footer-nav a:hover{
