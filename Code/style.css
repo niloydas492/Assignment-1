@@ -1,3 +1,10 @@
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+
 *{
     margin:0;
     padding:0;
@@ -55,12 +62,13 @@ ul li a:hover{
 
     border:none;
     cursor:pointer;
+    transition:0.3s;
 }
 
 .common-btn:hover{
     background:#163ea9;
+    transform:translateY(-3px);
 }
-
 
 .hero{
     background-image: url("../Pictures/banner.jpg");
@@ -136,11 +144,12 @@ ul li a:hover{
     border-radius:12px;
     overflow:hidden;
     box-shadow:0 4px 14px rgba(0,0,0,.08);
-}
 
+    transition:0.3s;
+}
 .speaker-card:hover{
-    transform:translateY(-6px);
-    transition:.3s;
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
 
 .speaker-card img{
@@ -206,6 +215,7 @@ ul li a:hover{
     border-radius:12px;
     padding:30px 24px;
     box-shadow:0 4px 14px rgba(0,0,0,.08);
+    transition:0.3s;
 }
 
 .pricing-card:hover{
