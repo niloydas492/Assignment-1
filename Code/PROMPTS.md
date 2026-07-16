@@ -1,0 +1,1 @@
+Generate a clean conference section with a heading, short paragraph, event information, one button, and an image for a developer conference website.

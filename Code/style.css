@@ -342,3 +342,71 @@ ul li a:hover{
     color:white;
 }
 
+.conference{
+    width:92%;
+    max-width:1200px;
+    margin:120px auto 140px;
+}
+
+.conference-wrapper{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+
+.conference-content{
+    flex:1;
+}
+
+.conference-image{
+    flex:1;
+}
+
+.conference-image img{
+    width:100%;
+    display:block;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+}
+
+.conference-tag{
+    display:inline-block;
+    color:#2563EB;
+    font-size:16px;
+    font-weight:700;
+    margin-bottom:18px;
+}
+.conference-content h2{
+    font-size:42px;
+    line-height:52px;
+    margin-bottom:20px;
+    color:#0D1B2A;
+}
+
+.conference-content p{
+    font-size:20px;
+    line-height:34px;
+    color:#555;
+    margin-bottom:25px;
+}
+
+.conference-info{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    list-style:none;
+    padding:0;
+    margin:25px 0;
+}
+
+.conference-info li{
+    font-size:20px;
+    color:#444;
+}
+
+.conference .common-btn{
+    padding:18px 36px;
+    font-size:22px;
+    margin-top:15px;
+}
