@@ -71,7 +71,7 @@ ul li a:hover{
 }
 
 .hero{
-    background-image: url("../Pictures/banner.jpg");
+    background-image: url("./Pictures/banner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
